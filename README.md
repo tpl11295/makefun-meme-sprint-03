@@ -12,7 +12,7 @@ One image meme about an AI agent gone rogue: "Me: I'll just let the agent handle
 python3 main.py
 ```
 
-It draws the meme to `/output/entry.png` (1024x1024 PNG).
+It draws the meme to `/output/entry.png` (1024x1024 PNG) using only the Python standard library — no Pillow, no font files — so it runs in the grading sandbox as well as locally.
 
 ---
 
